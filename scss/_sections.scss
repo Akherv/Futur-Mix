@@ -1,0 +1,46 @@
+#section1 {
+  background: var(--backgroundSection1);
+}
+
+#section2 {
+  background: var(--backgroundSection2);
+}
+
+#section3 {
+  background: var(--backgroundSection3);
+}
+
+#section4 {
+  background: var(--backgroundSection4);
+}
+
+.sections h1 {
+  margin: 5rem 0;
+  font-size: 4rem;
+  color: var(--secondary-color);
+}
+
+.sections p {
+  font-family: "Roboto", sans-serif;
+}
+
+.containerGlobal {
+  margin: auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.containerTitreSection {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+.containerAccroche {
+  width: 82%;
+  margin: auto;
+  text-align: justify;
+}
+
+

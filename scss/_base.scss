@@ -1,0 +1,76 @@
+:root {
+  --backgroundNavBar: rgba(0, 0, 0, 0.8);
+  --backgroundHeader: radial-gradient(circle, #5147ff 0%, #0d0047 100%);
+  --backgroundSection1: radial-gradient(circle, #9d47ff 0%, #0d0045 100%);
+  --backgroundSection2: radial-gradient(circle, #47aaff 0%, #0d0045 100%);
+  --backgroundSection3: radial-gradient(circle, #47fff1 0%, #001249 100%);
+  --backgroundSection4: radial-gradient(circle, #a147ff 0%, #360039 100%);
+  --primary-color: #fff;
+  --secondary-color: rgb(255, 215, 1);
+}
+
+/*_____ BASE _____*/
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1rem;
+}
+
+h1,
+h1 a,
+h2 {
+  font-family: "Calistoga", cursive;
+  color: var(--primary-color);
+}
+
+h1 {
+  margin: 0;
+  font-size: 3.4rem;
+}
+
+h1 a {
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 2.4rem;
+  color: var(--secondary-color);
+}
+
+p {
+  font-size: 1.6rem;
+  color: var(--primary-color);
+}
+
+q,
+cite,
+blockquote {
+  padding: initial;
+  border: none;
+  font-size: 1.1rem;
+  color: var(--primary-color);
+}
+
+cite {
+  font-size: 0.8rem;
+}
+
+strong,
+a {
+  color: var(--secondary-color);
+}
+
+a,
+i {
+  cursor: pointer;
+}

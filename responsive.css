@@ -1,3 +1,4 @@
+/*_____ VARIABLES _____*/
 :root {
   --backgroundTitle: linear-gradient(
     90deg,
@@ -9,7 +10,6 @@
   --secondary-color: rgb(255, 215, 0);
 }
 
-/*********************/
 
 @media screen and (min-width: 921px) and (max-width: 1400px) {
   #imgIntro img {
@@ -26,7 +26,7 @@
     font-size: 0.9rem;
   }
 
-  /*****LOGO-NAVBAR*****/
+ /*_____ LOGO & NAVBAR _____*/
   #container_logo_navbar {
     height: 60px;
     display: flex;
@@ -79,7 +79,7 @@
   #navbar i {
     font-size: 1.5rem;
   }
-  /*****IMG-VIDEO*****/
+/*_____ IMG & VIDEO _____*/
   #container_textIntro_imgIntro {
     display: flex;
     flex-direction: column;
@@ -109,7 +109,7 @@
     width: 100%;
   }
 
-  /*****SECTIONS*****/
+/*_____ SECTIONS _____*/
   #section1 .containerTitreSection h1,
   #section3 .containerTitreSection h1 {
     font-size: 3rem;
@@ -136,7 +136,7 @@
     margin-top: 40px;
   }
 
-  /*****MODAL*****/
+/*_____ MODAL _____*/
   .modal {
     width: 100%;
     z-index: 12;
@@ -152,7 +152,7 @@
     padding: 0 !important;
     max-width: 70%;
   }
-  /*****CARD*****/
+/*_____ CARD _____*/
   .card.medium {
     height: 100% !important;
     position: relative;
@@ -202,19 +202,13 @@
     padding-bottom: 20px;
   }
 
-  .card-content i {
-    font-size: 1.3rem;
-  }
-  .card-content i:nth-of-type(2n) {
-    padding: 0 10px;
-  }
 
   .close {
     color: #fff;
     z-index: 2;
   }
 
-  /*****CAROUSEL*****/
+/*_____ CAROUSEL _____*/
 
   .carousel {
     overflow: hidden;
@@ -229,7 +223,7 @@
     z-index: 10;
   }
 
-  .carousel-itrem {
+  .carousel-item {
     position: relative;
   }
 
@@ -246,7 +240,7 @@
     color: var(--secondary-color);
   }
 
-  .containercardimgmini {
+  .containerCardImgMini {
     width: 180px;
     height: 270px;
     overflow: hidden;
@@ -287,12 +281,13 @@
     padding: 0 6%;
   }
 
-  /*****LOGO-NAVBAR*****/
+/*_____ LOGO & NAVBAR _____*/
   #container_logo_navbar {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    background: var(--backgroundNavBar);
   }
 
   #logo {
@@ -346,7 +341,7 @@
     font-size: 1.5rem;
   }
 
-  /*****IMG-VIDEO*****/
+/*_____ IMG & VIDEO _____*/
   #container_textIntro_imgIntro {
     position: relative;
     display: flex;
@@ -382,7 +377,7 @@
     height: 50%;
   }
 
-  /*****SECTIONS*****/
+/*_____ SECTION _____*/
 
   .sections h1 {
     margin-top: 20px;
@@ -400,7 +395,7 @@
     text-align: center;
   }
 
-  /*****MODAL*****/
+/*_____ MODAL _____*/
   .modal {
     width: 100%;
     z-index: 12;
@@ -416,7 +411,7 @@
     padding: 0 !important;
     max-width: 98%;
   }
-  /*****CARD*****/
+/*_____ CARD _____*/
   .card.medium {
     height: 100% !important;
     position: relative;
@@ -470,7 +465,7 @@
     color: var(--primary-color);
     z-index: 2;
   }
-  /*****CAROUSEL*****/
+/*_____ CAROUSEL _____*/
   .carousel {
     height: 44rem;
     position: relative;
@@ -483,7 +478,7 @@
     z-index: 10;
     overflow: hidden;
   }
-  .carousel-itrem {
+  .carousel-item {
     position: relative;
     overflow: hidden;
   }
@@ -500,7 +495,7 @@
     color: var(--secondary-color);
   }
 
-  .containercardimgmini {
+  .containerCardImgMini {
     width: 180px;
     height: 270px;
     overflow: hidden;
@@ -510,7 +505,7 @@
   form hr {
     width: 80%;
   }
-  /*****FORM*****/
+/*_____ FORM _____*/
   #containerForm_reseaux {
     margin: 60px auto;
     width: 73%;

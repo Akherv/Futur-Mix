@@ -1,0 +1,109 @@
+@media screen and (max-width: 1024px) {
+  #container_textIntro_imgIntro {
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+  }
+
+  #textIntro_video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #containerVideo {
+    width: 100%;
+  }
+
+  .containerVideo {
+    height: 0;
+    position: relative;
+    padding-bottom: 56.25%;
+    overflow: hidden;
+  }
+
+  iframe {
+    width: 100%;
+    height: auto;
+  }
+
+  footer {
+    padding: 15vw 0;
+    flex-direction: column;
+  }
+
+  #container_archives_credits {
+    margin-top: 4rem;
+  }
+
+  form,
+  #container_archives_credits {
+    width: 80% !important;
+  }
+
+  #containerForm_reseaux {
+    width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  #navbar ul {
+    width: 4rem;
+    position: absolute;
+    top: 6rem;
+    left: 0;
+    flex-direction: column;
+  }
+
+  #imgIntro img {
+    width: 20rem;
+  }
+
+  .containerTitreSection {
+    width: 100% !important;
+  }
+
+  .carousel {
+    height: 44rem;
+    position: relative;
+    z-index: 10;
+    overflow: hidden;
+    -webkit-perspective: 50rem;
+    perspective: 50rem;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transform-origin: 0% 50%;
+    transform-origin: 0% 50%;
+  }
+
+  .carousel-item {
+    position: relative;
+  }
+
+  .myBtn {
+    position: absolute;
+    bottom: -94px;
+    right: 40%;
+    z-index: 12;
+    cursor: pointer;
+  }
+
+  .fa-plus-circle {
+    font-size: 46px;
+    color: var(--secondary-color);
+  }
+
+  .containerCardImgMini {
+    width: 180px;
+    height: 270px;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  .modal-content {
+    width: 100% !important;
+    margin: inherit;
+    max-width: inherit;
+  }
+}
