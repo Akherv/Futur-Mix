@@ -41,6 +41,10 @@ footer h3 {
   height: 23rem;
 }
 
+#containerForm_reseaux label {
+  font-size: 1rem;
+}
+
 
 /*_____ FORM _____*/
 form label {
@@ -147,12 +151,6 @@ form input[type="checkbox"] {
 #archives li {
   padding: 1rem;
 }
-
-// #containercredits {
-//   padding: 2rem;
-//   width: 100%;
-//   text-align: center;
-// }
 
 /*_____ MODAL _____*/
 .modal {

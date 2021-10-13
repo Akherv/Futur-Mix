@@ -53,7 +53,7 @@ blockquote {
   color: var(--primary-color); }
 
 cite {
-  font-size: 0.8rem; }
+  font-size: 1rem; }
 
 strong,
 a {
@@ -381,6 +381,9 @@ footer h3 {
           box-shadow: -0.1rem 0.2rem 0.1rem 0.3rem rgba(0, 0, 0, 0.3);
   border-radius: .5rem;
   height: 23rem; }
+
+#containerForm_reseaux label {
+  font-size: 1rem; }
 
 /*_____ FORM _____*/
 form label {
