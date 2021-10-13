@@ -248,6 +248,9 @@ i {
   font-size: 4.6rem;
   color: var(--secondary-color); }
 
+.modal {
+  overflow: auto !important; }
+
 .modal-content {
   padding: 8rem;
   margin: 10vw auto;
