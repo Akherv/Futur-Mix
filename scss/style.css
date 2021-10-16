@@ -280,7 +280,7 @@ i {
         -o-object-fit: cover;
            object-fit: cover;
         border-radius: .2rem .2rem 0 0; }
-      .modal .modal-content .card.medium .card-image ::before {
+      .modal .modal-content .card.medium .card-image::before {
         content: "";
         width: 100%;
         height: 4rem;
