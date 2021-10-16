@@ -248,12 +248,12 @@ i {
   max-height: 100% !important;
   position: fixed;
   top: 0;
-  z-index: 11;
+  z-index: 20;
   display: none;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  overflow: initial;
+  overflow: auto;
   background-color: black; }
   .modal .modal-content {
     width: 80% !important;
