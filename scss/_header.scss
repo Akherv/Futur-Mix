@@ -15,14 +15,14 @@
 #logo {
   display: flex;
   align-items: center;
-}
 
-#logo h1 {
-  position: fixed;
-}
+  & h1 {
+    position: fixed;
 
-#logo h1 span {
-  color: var(--secondary-color);
+    & span {
+      color: var(--primary-color);
+    }
+  }
 }
 
 #ping {
@@ -37,28 +37,29 @@
 #navbar {
   width: 40%;
   background-color: transparent;
+
+  & ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+
+    & a {
+      background-color: transparent;
+      color: var(--primary-color);
+      transition: all 0.2s ease-in-out;
+
+      & :hover {
+        color: var(--secondary-color);
+      }
+
+      & i {
+        font-size: 1.5rem;
+      }
+    }
+  }
 }
 
-#navbar ul {
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-  list-style-type: none;
-}
-
-#navbar a {
-  background-color: transparent;
-  color: var(--primary-color);
-  transition: all 0.2s ease-in-out;
-}
-
-#navbar a:hover {
-  color: var(--secondary-color);
-}
-
-#navbar i {
-  font-size: 1.5rem;
-}
 
 /*_____ CONTAINER TEXT & IMG & VIDEO _____*/
 #container_textIntro_imgIntro {
@@ -72,8 +73,8 @@
 
 #imgIntro {
   margin-top: 6rem;
-}
 
-#imgIntro img {
-  width: 40rem;
+  & img {
+    width: 40rem;
+  }
 }

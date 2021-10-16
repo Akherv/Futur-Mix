@@ -1,64 +1,96 @@
 .modal {
-  overflow: auto !important;
-}
-
-.modal-content {
-  padding: 8rem;
-  margin: 10vw auto;
-  max-width: 55%;
-}
-
-.card.medium {
-  height: inherit;
-  min-height: 60rem !important;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-}
-
-.card .card-image img {
-  display: block;
-  object-fit: cover;
-  border-radius: .2rem .2rem 0 0;
-}
-
-.card-image::before {
-  content: "";
-  width: 100%;
-  height: 4rem;
-  position: absolute;
-  z-index: 2;
-  background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
-}
-
-.card-content::-webkit-scrollbar {
+  width: 100%!important;
+  height: 100%!important;
+  max-height: 100%!important;
+  position: fixed;
+  top:0;
+  z-index: 11;
   display: none;
-  -ms-overflow-style: none;
-}
+  justify-content: center;
+  overflow: initial;
+  background-color: rgb(0, 0, 0);
 
-.card-content i {
-  font-size: 1.6rem;
-}
-.card-content i:nth-of-type(2n) {
-  padding: 1.6rem;
-}
+  & .modal-content {
+    width:80%!important;
+    margin: auto !important;
+    max-width: 100% !important;v
+  
+    & .modal-header {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+    }
+  
+    & .card.medium {
+      height: inherit;
+      min-height: 60rem !important;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+  
+      & .card-image {
+  
+        & img {
+          display: block;
+          object-fit: cover;
+          border-radius: .2rem .2rem 0 0;
+        }
+  
+        & ::before {
+          content: "";
+          width: 100%;
+          height: 4rem;
+          position: absolute;
+          z-index: 2;
+          background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+        }
+      }
+  
+      & .card-content {
+  
+         & ::-webkit-scrollbar {
+        display: none;
+        -ms-overflow-style: none;
+        }
+  
+        & i {
+          font-size: 1.6rem;
+  
+          &:nth-of-type(2n) {
+            padding: 1.6rem;
+          }
+        }
+  
+        & .cardp i {
+          font-size: 2rem;
+        }
+      }
+    }
+  }
 
-.cardp i {
-  font-size: 2rem;
-}
-
-.close {
+  .close {
   font-size: 2.8rem;
   font-weight: bold;
   position: absolute;
   right: 1rem;
   z-index: 12;
   color: #fff;
+  cursor: pointer;
+
+    & :hover,
+    & :focus {
+      color: black;
+      text-decoration: none;
+      cursor: pointer;
+    }
+}
 }
 
-.close:hover,
-.close:focus {
-  color: black;
-  text-decoration: none;
-  cursor: pointer;
-}
+
+
+
+
+
+
+
+
